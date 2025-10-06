@@ -1,0 +1,15 @@
+# 忽略 Jupyter Notebook 的检查点目录
+.ipynb_checkpoints/
+
+# 忽略所有以 "Untitled" 开头且以 ".ipynb" 结尾的文件
+Untitled*.ipynb
+
+# 忽略所有名为 "untitled.r" 的文件 (也可以用 Untitled*.r)
+untitled.r
+
+# 忽略 macOS 系统的垃圾文件
+.DS_Store
+
+# 忽略 Conda/Mamba 环境目录 (非常重要！)
+# 我们已经有 envs/basebio.yml 文件来重建环境，所以不需要追踪整个环境文件夹
+/envs/*/
