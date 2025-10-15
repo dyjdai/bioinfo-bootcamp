@@ -1,0 +1,7 @@
+#项目配置文件
+data:
+  raw_dir: data/raw #原始数据
+  processed_dir: data/processed #处理后数据目录
+params:
+  min_value: 4.0 #示例参数
+  output_suffix: _clean.csv #输出文件后缀
